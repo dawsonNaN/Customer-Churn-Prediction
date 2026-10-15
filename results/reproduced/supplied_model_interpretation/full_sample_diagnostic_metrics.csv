@@ -1,0 +1,2 @@
+scope,threshold,accuracy,precision,recall,f1_score,roc_auc,tn,fp,fn,tp
+All customers; includes training observations,0.6399999999999997,0.7674286525628283,0.5565345080763583,0.608346709470305,0.5812883435582822,0.8086400124257953,4268,906,732,1137

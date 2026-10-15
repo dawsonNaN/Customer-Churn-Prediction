@@ -1,0 +1,15 @@
+{
+  "model_name": "CatBoost",
+  "high_risk_threshold": 0.6399999999999997,
+  "low_risk_boundary": 0.35,
+  "customer_count": 7043,
+  "row_id_sha256": "8a13830bbb1f0b05aa5274974c5748ff9e2690e2d9af6d492218a7145683609c",
+  "model_sha256": "40a81fd30e0ec214cdb914515ba3a386f9e51bb340a9c446cd9f4d74b8f5acf3",
+  "data_sha256": "1257b21ab7262cfe6fc0af8750ac97b019a75325db79dbb21a0eac15f9dc68a5",
+  "full_sample_metrics_are_held_out": false,
+  "shap_units": "raw model margin",
+  "top_driver_sort": "absolute contribution; may increase or decrease the prediction",
+  "lime_seed": 42,
+  "lime_computed": true,
+  "lime_feature_selection": "highest_weights"
+}

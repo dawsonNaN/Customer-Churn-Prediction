@@ -1,0 +1,45 @@
+feature,rfe_selected,rfe_ranking
+SeniorCitizen,True,1
+tenure,True,1
+MonthlyCharges,True,1
+TotalCharges,True,1
+high_risk_segment,True,1
+is_long_term_customer,True,1
+charge_gap,True,1
+charge_gap_ratio,True,1
+has_tech_support,True,1
+is_month_to_month,True,1
+is_electronic_check,True,1
+is_two_year_contract,True,1
+has_streaming_tv,True,1
+has_streaming_movies,True,1
+has_multiple_lines,True,1
+has_online_security,True,1
+has_dependents,True,1
+uses_fiber_optic,True,1
+has_multiple_services,True,1
+is_basic_service_user,True,1
+add_on_service_count,True,1
+has_internet_service,True,1
+PhoneService_Yes,True,1
+low_attachment_customer,True,1
+monthly_charge_group_Medium,True,1
+tenure_group_13-24 months,True,1
+PaymentMethod_Credit card (automatic),True,1
+PaymentMethod_Mailed check,True,1
+PaperlessBilling_Yes,True,1
+Contract_One year,True,1
+has_device_protection,False,2
+support_service_count,False,3
+monthly_charge_group_High,False,4
+is_auto_payment,False,5
+tenure_group_25-48 months,False,6
+is_new_customer,False,7
+is_high_total_charge,False,8
+high_charge_no_support,False,9
+monthly_charge_group_Very High,False,10
+is_high_monthly_charge,False,11
+month_to_month_high_charge,False,12
+gender_Male,False,13
+has_partner,False,14
+has_online_backup,False,15

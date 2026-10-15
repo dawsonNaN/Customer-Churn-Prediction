@@ -1,0 +1,7 @@
+-r requirements.txt
+catboost==1.2.10
+lightgbm==4.7.0
+optuna==5.0.0
+shap==0.53.0
+lime==0.2.0.1
+xgboost>=3.0,<4

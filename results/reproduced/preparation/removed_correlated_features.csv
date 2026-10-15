@@ -1,0 +1,27 @@
+removed_feature
+avg_monthly_total_charge
+is_long_contract
+is_senior
+is_single_no_dependents
+new_customer_no_support
+Partner_Yes
+Dependents_Yes
+MultipleLines_No phone service
+MultipleLines_Yes
+InternetService_Fiber optic
+InternetService_No
+OnlineSecurity_No internet service
+OnlineSecurity_Yes
+OnlineBackup_No internet service
+OnlineBackup_Yes
+DeviceProtection_No internet service
+DeviceProtection_Yes
+TechSupport_No internet service
+TechSupport_Yes
+StreamingTV_No internet service
+StreamingTV_Yes
+StreamingMovies_No internet service
+StreamingMovies_Yes
+Contract_Two year
+PaymentMethod_Electronic check
+tenure_group_49-72 months

@@ -1,0 +1,9 @@
+dataset,model,threshold,accuracy,precision,recall,f1_score,roc_auc,tn,fp,fn,tp,source
+Validation,XGBoost,0.62,0.7367,0.5945,0.7146,0.649,0.7921,695,234,137,343,Week 6 report; not independently reproduced
+Test,XGBoost,0.62,0.6608,0.7514,0.5483,0.634,,517,137,341,414,Week 6 report; not independently reproduced
+Validation,LightGBM,0.55,0.7161,0.5571,0.8125,0.661,0.7951,619,310,90,390,Week 6 report; not independently reproduced
+Test,LightGBM,0.55,0.6962,0.7183,0.7126,0.7154,,443,211,217,538,Week 6 report; not independently reproduced
+Validation,CatBoost,0.64,0.741,0.5976,0.7333,0.6586,0.7999,692,237,128,352,Week 6 report; not independently reproduced
+Test,CatBoost,0.64,0.6508,0.7476,0.5258,0.6174,,520,134,358,397,Week 6 report; not independently reproduced
+Validation,Probability average,0.53,0.7104,0.5504,0.8187,0.6583,,608,321,87,393,Week 6 report; not independently reproduced
+Test,Probability average,0.53,0.6842,0.7286,0.6543,0.6895,,470,184,261,494,Week 6 report; not independently reproduced

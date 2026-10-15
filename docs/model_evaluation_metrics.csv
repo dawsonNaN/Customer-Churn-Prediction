@@ -1,0 +1,6 @@
+﻿metric,meaning,business_interpretation
+Accuracy,The proportion of all customers that were correctly predicted.,"Useful as a general indicator, but it can be misleading when churn and non-churn classes are imbalanced."
+Precision,"Among customers predicted as churn, the proportion that actually churned.",Higher precision means fewer retention resources are spent on customers who would not churn.
+Recall,"Among actual churn customers, the proportion correctly identified by the model.",Important for churn prediction because the business wants to catch as many at-risk customers as possible.
+F1-score,The harmonic mean of precision and recall.,Useful when both false positives and false negatives need to be considered.
+ROC-AUC,The model's ability to distinguish churn customers from non-churn customers across thresholds.,AUC above 0.75 indicates the baseline model has acceptable discrimination ability for this stage.

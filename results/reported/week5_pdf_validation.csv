@@ -1,0 +1,11 @@
+model,imbalance_strategy,accuracy,precision,recall,f1_score,roc_auc,source,dataset
+Logistic Regression,Balanced weights,0.5905,0.4526,0.9419,0.6114,0.7882,Chinese Week 5 evaluation PDF,Validation
+Decision Tree,None,0.7246,0.6343,0.4606,0.5337,0.786,Chinese Week 5 evaluation PDF,Validation
+Logistic Regression,RandomOverSampler,0.5862,0.45,0.944,0.6095,0.7846,Chinese Week 5 evaluation PDF,Validation
+Decision Tree,RandomOverSampler,0.6217,0.4723,0.9004,0.6196,0.784,Chinese Week 5 evaluation PDF,Validation
+Logistic Regression,None,0.6572,0.4993,0.6971,0.5818,0.7565,Chinese Week 5 evaluation PDF,Validation
+Decision Tree,Balanced weights,0.6828,0.5242,0.7863,0.629,0.7564,Chinese Week 5 evaluation PDF,Validation
+Decision Tree,ADASYN,0.6558,0.4977,0.6598,0.5674,0.7283,Chinese Week 5 evaluation PDF,Validation
+Decision Tree,SMOTE,0.6224,0.4684,0.7676,0.5818,0.7219,Chinese Week 5 evaluation PDF,Validation
+Logistic Regression,SMOTE,0.5124,0.4057,0.9149,0.5621,0.6739,Chinese Week 5 evaluation PDF,Validation
+Logistic Regression,ADASYN,0.5131,0.4061,0.9149,0.5625,0.662,Chinese Week 5 evaluation PDF,Validation

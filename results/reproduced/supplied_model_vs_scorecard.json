@@ -1,0 +1,17 @@
+{
+  "rows": 7043,
+  "max_absolute_probability_difference": 0.22326274859351192,
+  "mean_absolute_probability_difference": 0.080878366230657,
+  "different_risk_labels": 1034,
+  "supplied_scorecard_counts": {
+    "Medium Risk": 3008,
+    "Low Risk": 2190,
+    "High Risk": 1845
+  },
+  "supplied_model_recomputed_counts": {
+    "Low Risk": 2968,
+    "High Risk": 2043,
+    "Medium Risk": 2032
+  },
+  "exact_reason": "Not established from supplied files. Source versions are retained separately."
+}

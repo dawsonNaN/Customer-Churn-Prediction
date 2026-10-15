@@ -1,0 +1,5 @@
+dataset,model,threshold,accuracy,precision,recall,f1_score,tn,fp,fn,tp,auc_roc,n_customers,churn_rate
+Month-to-month customers,CatBoost,0.5699999999999997,0.658,0.7454,0.5878,0.6572,445,151,310,442,0.7282,1348,0.5579
+New customers,CatBoost,0.5699999999999997,0.6707,0.7458,0.586,0.6563,502,151,313,443,0.7491,1409,0.5366
+High monthly charge customers,CatBoost,0.5699999999999997,0.748,0.7516,0.9837,0.8521,11,120,6,363,0.6392,500,0.738
+Low attachment customers,CatBoost,0.5699999999999997,0.641,0.7454,0.4812,0.5848,373,83,262,243,0.7342,961,0.5255

@@ -1,0 +1,4 @@
+-r requirements.txt
+nbformat==5.11.1
+ipykernel>=6
+jupyterlab>=4,<5

@@ -1,0 +1,14 @@
+{
+  "dataset": "Validation",
+  "model": "Logistic Regression",
+  "imbalance_method": "Class Weight Balanced",
+  "accuracy": 0.5904897090134847,
+  "precision": 0.452642073778664,
+  "recall": 0.941908713692946,
+  "f1_score": 0.6114478114478115,
+  "roc_auc": 0.7881937450482751,
+  "tn": 378,
+  "fp": 549,
+  "fn": 28,
+  "tp": 454
+}

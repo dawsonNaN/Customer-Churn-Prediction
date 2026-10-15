@@ -1,0 +1,45 @@
+feature,random_forest_importance
+TotalCharges,0.1040785518417574
+MonthlyCharges,0.09838729512387358
+tenure,0.08972136562006239
+charge_gap_ratio,0.07315125566733457
+charge_gap,0.07208759553280535
+is_month_to_month,0.06606622884603568
+month_to_month_high_charge,0.033975223290715915
+is_two_year_contract,0.029297479486597295
+high_risk_segment,0.027495491336947436
+is_new_customer,0.024222456188211724
+uses_fiber_optic,0.023986775350772274
+add_on_service_count,0.022436785875594754
+support_service_count,0.02228381959148696
+PaperlessBilling_Yes,0.01822948012561497
+gender_Male,0.017936531140133848
+is_electronic_check,0.017618740465143102
+high_charge_no_support,0.016610317688915157
+has_internet_service,0.015523668253298113
+is_long_term_customer,0.015059021010619905
+has_partner,0.014781349671027707
+has_dependents,0.013566137510479016
+has_online_security,0.012998695423127487
+SeniorCitizen,0.012616183223736947
+is_auto_payment,0.011338798059951888
+has_multiple_lines,0.011304923801006696
+has_online_backup,0.011232862199831554
+has_streaming_movies,0.011154975357987372
+Contract_One year,0.010240081365162853
+has_streaming_tv,0.010056911107644608
+has_device_protection,0.00943757978725246
+PaymentMethod_Credit card (automatic),0.008488871904597925
+has_tech_support,0.007987959098171354
+low_attachment_customer,0.007649077296160666
+PaymentMethod_Mailed check,0.007577783212162663
+is_high_monthly_charge,0.00663862953673298
+tenure_group_25-48 months,0.0060585134090311845
+is_high_total_charge,0.005895067816468879
+monthly_charge_group_High,0.004984079071267055
+monthly_charge_group_Medium,0.004864592785876344
+PhoneService_Yes,0.004800185818039582
+tenure_group_13-24 months,0.004697846552964129
+monthly_charge_group_Very High,0.004691323142364207
+has_multiple_services,0.004613260521174957
+is_basic_service_user,0.004156229891859048

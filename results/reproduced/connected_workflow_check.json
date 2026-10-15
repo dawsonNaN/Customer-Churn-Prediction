@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "trials_per_model": 1,
+  "lime_skipped": true,
+  "customers": 7043,
+  "catboost_high_risk_threshold": 0.30999999999999994,
+  "low_risk_boundary": 0.15499999999999997,
+  "handoffs": [
+    "preparation to baseline and advanced training",
+    "new CatBoost bundle to interpretation",
+    "new scorecard to segmentation"
+  ],
+  "separate_full_budget_run_trials_per_model": 10,
+  "standalone_lime_customers": 3
+}

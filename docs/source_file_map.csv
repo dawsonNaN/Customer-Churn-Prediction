@@ -1,0 +1,28 @@
+original_file,new_location,handling
+Azure(1).pdf,reports/01_business_context_and_data_quality.md,"English report and matching PDF; overview, quality review, and roadmap."
+EDA1 (1)(1).ipynb,notebooks/01_telco_eda.ipynb,English notebook with local paths and regenerated outputs.
+EDA2(1).ipynb,notebooks/02_support_ticket_eda.ipynb,English notebook using the reduced public working copy.
+Azure 初步流失模式分析报告(1).pdf,reports/02_exploratory_findings.md,English report and matching PDF.
+EDAI.pbix,dashboards/customer_churn_dashboard.pbix,Original native binary preserved unchanged; see dashboard notes.
+Processing2.py,src/prepare_data.py,Merged cleaning and feature engineering; English functions and local paths.
+processing1.py,src/prepare_data.py,Merged cleaning and feature engineering; English functions and local paths.
+特征工程设计文档.pdf,reports/03_feature_engineering_design.md,English report and matching PDF.
+telco_cleaned.csv,data/processed/telco_cleaned.csv,Supplied snapshot preserved unchanged.
+support_tickets_cleaned.csv,data/processed/support_tickets_cleaned.csv,"Names, emails, and descriptions removed; resolution reduced to presence marker."
+特征1(1).py,src/prepare_data.py,Merged cleaning and feature engineering; English functions and local paths.
+特征工程2.py,src/prepare_data.py,Merged cleaning and feature engineering; English functions and local paths.
+特征重要性初步分析报告.pdf,reports/04_preliminary_feature_importance.md,English report and matching PDF.
+telco_feature_summary.csv,docs/telco_feature_dictionary.csv,42 entries translated; two missing matrix predictors added.
+telco_full_model_ready(1).csv,data/processed/telco_full_model_ready.csv,Renamed; supplied snapshot preserved unchanged.
+week5_baseline_modeling1.py,src/train_baselines.py,Paths updated and time-split wording corrected; model settings retained.
+week5_model_evaluation_metrics_document(1).csv,docs/model_evaluation_metrics.csv,English metric definitions preserved.
+模型评估指标体系.pdf,reports/05_baseline_models_and_evaluation.md,"English report and matching PDF, with full reported result tables."
+week5_baseline_model_performance_report(1).md,reports/06_baseline_run_summary.md,Edited English summary; alternate source scores preserved.
+Week6综合评估报告.pdf,reports/07_advanced_model_evaluation.md,English report and matching PDF; original reported results separated from current tuning.
+week6_advanced_model_tuning(1).py,src/train_advanced.py,"Consolidated and connected to shared splitting, metrics, paths, and seeded Optuna."
+week6_best_churn_model(2).pkl,models/week6_best_churn_model.pkl,Original binary preserved unchanged; model metadata provided.
+week7_model_interpretability_analysis (1)(1).ipynb,notebooks/03_model_interpretation.ipynb,English notebook reusing src/interpret_model.py; Colab prompts removed.
+Week7_客户流失风险评分卡_完整版(1).csv,results/reported/week7/customer_risk_scorecard.csv,Original English-column scorecard preserved unchanged.
+Week7_流失驱动因素深度分析报告.pdf,reports/08_model_interpretation_and_risk_scorecard.md,English report and matching PDF.
+Week8_客户分群与价值分析报告.pdf,reports/09_customer_segmentation_and_value.md,English report and matching PDF.
+week 8(1).zip,src/segment_customers.py; results/reported/week8; assets/figures,"Analysis, six CSVs, and three PNGs integrated; macOS metadata and local shortcut omitted."

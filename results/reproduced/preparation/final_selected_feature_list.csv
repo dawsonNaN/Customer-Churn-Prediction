@@ -1,0 +1,44 @@
+selected_feature
+SeniorCitizen
+tenure
+MonthlyCharges
+TotalCharges
+high_risk_segment
+is_new_customer
+is_long_term_customer
+charge_gap
+charge_gap_ratio
+is_high_monthly_charge
+is_high_total_charge
+is_month_to_month
+is_two_year_contract
+is_electronic_check
+is_auto_payment
+has_tech_support
+has_online_security
+has_online_backup
+has_device_protection
+support_service_count
+has_streaming_tv
+has_streaming_movies
+has_multiple_lines
+add_on_service_count
+is_basic_service_user
+has_multiple_services
+has_internet_service
+uses_fiber_optic
+has_partner
+has_dependents
+high_charge_no_support
+month_to_month_high_charge
+low_attachment_customer
+gender_Male
+PhoneService_Yes
+Contract_One year
+PaperlessBilling_Yes
+PaymentMethod_Credit card (automatic)
+PaymentMethod_Mailed check
+tenure_group_13-24 months
+tenure_group_25-48 months
+monthly_charge_group_Medium
+monthly_charge_group_High

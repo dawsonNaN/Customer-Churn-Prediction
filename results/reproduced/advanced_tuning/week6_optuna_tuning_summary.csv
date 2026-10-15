@@ -1,0 +1,4 @@
+model,best_validation_auc,best_params
+XGBoost,0.7970486600688429,"{""n_estimators"": 145, ""max_depth"": 2, ""learning_rate"": 0.024878734419814436, ""subsample"": 0.8336647510712832, ""colsample_bytree"": 0.8011807565247405, ""min_child_weight"": 3, ""reg_lambda"": 1.6738085788752133}"
+LightGBM,0.7950187326269991,"{""n_estimators"": 170, ""max_depth"": 4, ""learning_rate"": 0.015252697030515175, ""num_leaves"": 53, ""subsample"": 0.6760927252879199, ""colsample_bytree"": 0.9954104278101811, ""min_child_samples"": 64, ""reg_lambda"": 0.24970737145052724}"
+CatBoost,0.7974436790252768,"{""iterations"": 253, ""depth"": 3, ""learning_rate"": 0.023993242906812727, ""l2_leaf_reg"": 2.324672848950434, ""random_strength"": 2.334742922663476}"

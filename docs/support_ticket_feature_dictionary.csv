@@ -1,0 +1,37 @@
+feature_name,feature_category,business_meaning
+days_since_purchase,Time,Days between purchase date and first response time.
+response_time_hours,Time,Hours between purchase date and first response time. It is an approximate measure because ticket creation time is not available.
+resolution_time_hours,Time,Hours between first response time and final resolution time.
+is_invalid_time_record,Data Quality,Marks records where resolution time is earlier than first response time.
+is_long_resolution,Time,Marks tickets with resolution time longer than 24 hours.
+purchase_month,Time,Month extracted from purchase date.
+purchase_year,Time,Year extracted from purchase date.
+purchase_day_of_week,Time,Day of week extracted from purchase date.
+is_weekend_purchase,Time,Marks whether the purchase happened on a weekend.
+is_closed_ticket,Behavior,Marks whether the ticket is closed.
+is_open_ticket,Behavior,Marks whether the ticket is open.
+is_pending_customer_response,Behavior,Marks whether the ticket is pending customer response.
+has_resolution,Behavior,Marks whether the ticket has resolution information.
+has_missing_satisfaction,Data Quality,Marks whether customer satisfaction rating is missing.
+is_technical_issue,Behavior,Marks technical issue tickets.
+is_billing_inquiry,Behavior,Marks billing inquiry tickets.
+is_refund_request,Behavior,Marks refund request tickets.
+is_cancellation_request,Behavior,Marks cancellation request tickets.
+is_product_inquiry,Behavior,Marks product inquiry tickets.
+is_high_or_critical_priority,Behavior,Marks high or critical priority tickets.
+is_email_channel,Behavior,Marks tickets submitted through email.
+is_phone_channel,Behavior,Marks tickets submitted through phone.
+is_chat_channel,Behavior,Marks tickets submitted through chat.
+is_social_media_channel,Behavior,Marks tickets submitted through social media.
+is_low_satisfaction,Satisfaction,Marks tickets with satisfaction rating 1 or 2.
+is_high_satisfaction,Satisfaction,Marks tickets with satisfaction rating 4 or 5.
+unresolved_high_priority,Service Experience Risk,Marks unresolved high or critical priority tickets.
+low_satisfaction_long_resolution,Service Experience Risk,Marks tickets with low satisfaction and long resolution time.
+technical_issue_long_resolution,Service Experience Risk,Marks technical issue tickets with long resolution time.
+billing_or_refund_issue,Service Experience Risk,Marks billing or refund related issues.
+churn_warning_ticket,Service Experience Risk,Marks refund or cancellation tickets as possible churn warning signals.
+is_low_priority,Behavior,1 for Low priority.
+is_medium_priority,Behavior,1 for Medium priority.
+is_high_priority,Behavior,1 for High priority.
+is_critical_priority,Behavior,1 for Critical priority.
+satisfaction_group,Satisfaction,"Low for scores 1-2, Medium for 3, High for 4-5; missing scores stay missing."

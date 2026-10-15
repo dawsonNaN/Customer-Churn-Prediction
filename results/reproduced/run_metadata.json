@@ -1,0 +1,93 @@
+{
+  "execution_date_utc": "2026-10-15",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "imbalanced-learn": "0.14.2",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost-cpu": "3.4.1",
+    "optuna": "5.0.0",
+    "shap": "0.53.0",
+    "lime": "0.2.0.1"
+  },
+  "model_matrix_sha256": "1257b21ab7262cfe6fc0af8750ac97b019a75325db79dbb21a0eac15f9dc68a5",
+  "preparation_matrix_matches_original": true,
+  "support_features_match_previous_full_script": true,
+  "baseline_metrics_match_original_code": true,
+  "week8_csv_checks": [
+    {
+      "file": "week8_core_60_percent_customer_groups.csv",
+      "rows": 3,
+      "columns": 11,
+      "matches": true
+    },
+    {
+      "file": "week8_core_customer_groups.csv",
+      "rows": 9,
+      "columns": 11,
+      "matches": true
+    },
+    {
+      "file": "week8_customer_segmentation_results.csv",
+      "rows": 7043,
+      "columns": 17,
+      "matches": true
+    },
+    {
+      "file": "week8_kmeans_cluster_summary.csv",
+      "rows": 4,
+      "columns": 13,
+      "matches": true
+    },
+    {
+      "file": "week8_segmentation_algorithm_comparison.csv",
+      "rows": 8,
+      "columns": 7,
+      "matches": true
+    },
+    {
+      "file": "week8_value_risk_matrix.csv",
+      "rows": 9,
+      "columns": 9,
+      "matches": true
+    }
+  ],
+  "advanced_trials_per_model": 10,
+  "optuna_seed": 42,
+  "new_advanced_selected_model": "CatBoost",
+  "new_advanced_validation_auc": 0.7974436790252768,
+  "supplied_model_and_historical_scorecard_match": false,
+  "supplied_model_scorecard_comparison": {
+    "rows": 7043,
+    "max_absolute_probability_difference": 0.22326274859351192,
+    "mean_absolute_probability_difference": 0.080878366230657,
+    "different_risk_labels": 1034,
+    "supplied_scorecard_counts": {
+      "Medium Risk": 3008,
+      "Low Risk": 2190,
+      "High Risk": 1845
+    },
+    "supplied_model_recomputed_counts": {
+      "Low Risk": 2968,
+      "High Risk": 2043,
+      "Medium Risk": 2032
+    },
+    "exact_reason": "Not established from supplied files. Source versions are retained separately."
+  },
+  "lime_runs": 3,
+  "lime_feature_rows": 15,
+  "lime_feature_selection": "highest_weights",
+  "connected_workflow_check": {
+    "trials_per_model": 1,
+    "lime_skipped": true,
+    "result": "See connected_workflow_check.json"
+  },
+  "jupyter_execution": "Notebook code cells executed sequentially in Python; rich outputs embedded. Interactive Jupyter UI not tested.",
+  "power_bi_desktop_opened_or_refreshed": false
+}

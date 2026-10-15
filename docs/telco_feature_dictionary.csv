@@ -1,0 +1,45 @@
+feature_name,meaning,selection_reason
+tenure,Months the customer has used the service.,Core lifecycle variable; early and established customers have different observed churn.
+is_new_customer,1 when tenure <= 12 months.,Captures the higher-risk early lifecycle identified in EDA.
+is_long_term_customer,1 when tenure >= 48 months.,Identifies established relationships and potentially stronger service attachment.
+tenure_group_13-24 months,Indicator for tenure in the 13-24 month group.,Captures differences between lifecycle stages.
+MonthlyCharges,Current monthly charge.,Represents spending and possible value or price concerns.
+TotalCharges,Accumulated charges.,Spending proxy related to tenure; highlighted in the reported Random Forest ranking.
+charge_gap,MonthlyCharges minus average historical monthly charges.,Compares current charges with the historical average.
+charge_gap_ratio,Charge gap divided by average historical monthly charges; zero for a zero denominator.,Expresses the charge gap on a relative scale.
+is_high_monthly_charge,1 when monthly charges exceed the historical full-dataset median.,Identifies relatively high current spending.
+is_high_total_charge,1 when total charges exceed the historical full-dataset median.,Identifies relatively high accumulated spending.
+monthly_charge_group_High,"Monthly charge is in (70, 90].",Allows differences between spending bands.
+monthly_charge_group_Medium,"Monthly charge is in (35, 70].",Provides a comparison with other spending bands.
+is_month_to_month,1 for a month-to-month contract.,A prominent mutual-information feature with high observed churn.
+is_two_year_contract,1 for a two-year contract.,Represents longer commitment and lower observed churn.
+Contract_One year,Indicator for a one-year contract.,Distinguishes annual contract relationships.
+month_to_month_high_charge,Month-to-month contract and high monthly charges.,Combines contract flexibility and spending signals.
+is_electronic_check,1 for electronic check payment.,This payment group has higher observed churn in EDA.
+is_auto_payment,1 for automatic bank transfer or automatic credit card payment.,Captures automatic-payment behavior associated with lower observed churn.
+PaymentMethod_Credit card (automatic),Indicator for automatic credit card payment.,Distinguishes payment habits.
+PaymentMethod_Mailed check,Indicator for mailed check payment.,Adds information about payment behavior.
+has_tech_support,1 when TechSupport is Yes.,Describes support service adoption.
+has_online_security,1 when OnlineSecurity is Yes.,Describes security service adoption and attachment.
+has_online_backup,1 when OnlineBackup is Yes.,Describes backup service adoption.
+has_device_protection,1 when DeviceProtection is Yes.,Adds information about protection service use.
+support_service_count,"Count of support, security, backup, and device protection services.",Aggregates adoption of support-related services.
+add_on_service_count,"Count across seven support, protection, streaming, and multiple-line indicators.",Measures breadth of add-on adoption.
+has_multiple_services,1 when add_on_service_count >= 3.,Flags broader service adoption.
+is_basic_service_user,1 when add_on_service_count <= 1.,Flags limited add-on adoption.
+low_attachment_customer,Month-to-month contract and at most one add-on.,Combines contract flexibility with limited service adoption.
+has_multiple_lines,1 when MultipleLines is Yes.,Adds information about phone service use.
+PhoneService_Yes,Indicator for phone service subscription.,Distinguishes the service mix.
+has_internet_service,1 when InternetService is not No.,Captures participation in the core internet service.
+uses_fiber_optic,1 when InternetService is Fiber optic.,This service group has higher observed churn in EDA.
+has_streaming_tv,1 when StreamingTV is Yes.,Measures entertainment add-on adoption in the Telco setting.
+has_streaming_movies,1 when StreamingMovies is Yes.,Adds information about entertainment add-on adoption.
+high_risk_segment,"Month-to-month contract, TechSupport is No, and electronic check payment.",Describes a combined EDA risk profile.
+high_charge_no_support,High monthly charges and has_tech_support = 0.,"Combines spending with lack of a support subscription, including no-internet customers."
+PaperlessBilling_Yes,Indicator for paperless billing.,Adds context about billing behavior.
+SeniorCitizen,Original senior-citizen indicator.,Demographic context; not a main causal explanation.
+gender_Male,Indicator for the original Male category.,Supporting demographic context.
+has_partner,1 when Partner is Yes.,Adds context about household status.
+has_dependents,1 when Dependents is Yes.,Adds context about household responsibilities.
+tenure_group_25-48 months,Indicator for tenure in the 25-48 month group.,Added to cover this column in the supplied 44-predictor matrix.
+monthly_charge_group_Very High,"Monthly charge is in (90, 120].",Added to cover this column in the supplied 44-predictor matrix.
